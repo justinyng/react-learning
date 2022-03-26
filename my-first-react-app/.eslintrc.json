@@ -12,10 +12,19 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "jest", "prefer-arrow-functions"],
   "rules": {
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "prefer-arrow-functions/prefer-arrow-functions": [
+      "warn",
+      {
+        "classPropertiesAllowed": false,
+        "disallowPrototype": false,
+        "returnStyle": "unchanged",
+        "singleReturnOnly": false
+      }
+    ]
   },
   "settings": {
     "react": {
