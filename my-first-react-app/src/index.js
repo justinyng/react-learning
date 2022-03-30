@@ -7,6 +7,7 @@ ReactDOM.render(
     <Welcome name="Sara" />
     <Welcome name="Cahal" />
     <Welcome name="Edite" />
+    <Welcome/>
   </React.StrictMode>,
   document.getElementById('root')
 );
