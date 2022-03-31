@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Welcome from './Components/Welcome';
+import PropertiesForm from './Components/PropertiesForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Welcome name="Sara" />
-    <Welcome name="Cahal" />
-    <Welcome name="Edite" />
-    <Welcome/>
+    <PropertiesForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
